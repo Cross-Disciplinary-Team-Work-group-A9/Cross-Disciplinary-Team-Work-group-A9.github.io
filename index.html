@@ -1,7 +1,25 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <style>
+            .container {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 56.25%;
+            }
+            .mainframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
     <body>
-        <iframe frameborder="0" src="https://itch.io/embed-upload/4747504?color=333333" allowfullscreen="" width="960" height="620"><a href="https://tvoldenitu.itch.io/kabeltromlen-showroom">Play Kabeltromlen - Showroom on itch.io</a></iframe>
+        <div class="container">
+            <iframe src="kabeltromle.html" class="mainframe" frameborder="0" allowfullscreen></iframe>
+        </div>
     </body>    
 </html>
